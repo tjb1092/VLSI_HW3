@@ -1,0 +1,75 @@
+| units: 30 tech: scmos format: MIT
+p pin pout a_2_100# 2 9 0 100
+p a a_27_101# a_2_100# 2 9 32 101
+p abar a_2_100# a_50_101# 2 9 48 101
+p b a_50_101# vdd 2 9 64 101
+p bbar vdd a_27_101# 2 9 80 101
+p pinbar pout a_18_86# 2 9 16 86
+p a a_18_86# a_34_86# 2 9 32 86
+p abar a_34_86# vdd 2 9 48 86
+p b vdd a_34_86# 2 9 64 86
+p bbar a_34_86# a_18_86# 2 9 80 86
+p pin vdd pinbar 2 4 0 62
+p abar vdd a_50_74# 2 8 48 74
+p a vdd abar 2 7 32 62
+n pin gnd pinbar 2 3 0 47
+p bbar vdd a_82_70# 2 8 80 70
+p min a_82_70# fout 2 8 96 70
+p minbar fout a_50_74# 2 8 112 70
+p b vdd bbar 2 7 64 62
+n a gnd abar 2 5 32 45
+p min vdd minbar 2 4 96 62
+n b gnd bbar 2 5 64 45
+n abar fout a_50_31# 2 4 48 31
+n min gnd minbar 2 3 96 47
+n bbar a_50_31# gnd 2 4 80 31
+n min gnd a_50_31# 2 4 96 31
+n minbar a_50_31# fout 2 4 112 31
+n pinbar pout a_2_9# 2 5 16 22
+n a a_27_23# pout 2 5 32 22
+n abar pout a_50_22# 2 5 48 22
+n b a_50_22# a_2_9# 2 5 64 22
+n bbar a_2_9# a_27_23# 2 5 80 22
+n pin gnd a_2_9# 2 5 0 9
+n a a_2_9# a_34_9# 2 5 32 9
+n abar a_34_9# gnd 2 5 48 9
+n b gnd a_34_9# 2 5 64 9
+n bbar a_34_9# a_2_9# 2 5 80 9
+R a_34_9# 677
+R a_50_22# 231
+R a_27_23# 542
+C a_2_9# GND 2.68
+R a_2_9# 1606
+C a_50_31# GND 3.09
+R a_50_31# 943
+C fout GND 6.88
+R fout 675
+R a_82_70# 180
+C minbar GND 2.24
+R minbar 879
+C min GND 8.58
+R min 974
+C gnd GND 15.60
+R gnd 2743
+C a_50_74# GND 2.30
+R a_50_74# 747
+R a_34_86# 641
+R a_18_86# 654
+C pinbar GND 2.59
+R pinbar 1147
+C bbar GND 2.49
+R bbar 1595
+C vdd GND 16.34
+R vdd 3101
+R a_50_101# 160
+C abar GND 2.49
+R abar 1595
+C a_27_101# GND 2.09
+R a_27_101# 936
+R a_2_100# 716
+C pout GND 7.64
+R pout 1509
+C pin GND 3.66
+R pin 1319
+R b 1382
+R a 1382
