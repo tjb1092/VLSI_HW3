@@ -1,0 +1,677 @@
+* SPICE3 file created from 8bit.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 P3_take3_0[0]/a_2_100# P3_take3_0[0]/pin mout Vdd pfet w=9 l=2
++  ad=167 pd=78 as=70 ps=56
+M1001 P3_take3_0[0]/a_2_100# a7 P3_take3_0[0]/a_27_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=70 ps=56
+M1002 P3_take3_0[0]/a_50_101# P3_take3_0[0]/abar P3_take3_0[0]/a_2_100# Vdd pfet w=9 l=2
++  ad=126 pd=46 as=0 ps=0
+M1003 vdd b7 P3_take3_0[0]/a_50_101# Vdd pfet w=9 l=2
++  ad=3408 pd=1872 as=0 ps=0
+M1004 P3_take3_0[0]/a_27_101# P3_take3_0[0]/bbar vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 P3_take3_0[0]/a_18_86# P3_take3_0[0]/pinbar mout Vdd pfet w=9 l=2
++  ad=161 pd=74 as=0 ps=0
+M1006 P3_take3_0[0]/a_34_86# a7 P3_take3_0[0]/a_18_86# Vdd pfet w=9 l=2
++  ad=252 pd=92 as=0 ps=0
+M1007 vdd P3_take3_0[0]/abar P3_take3_0[0]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 P3_take3_0[0]/a_34_86# b7 vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 P3_take3_0[0]/a_18_86# P3_take3_0[0]/bbar P3_take3_0[0]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 P3_take3_0[0]/pinbar P3_take3_0[0]/pin vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1011 P3_take3_0[0]/a_50_74# P3_take3_0[0]/abar vdd Vdd pfet w=8 l=2
++  ad=72 pd=52 as=0 ps=0
+M1012 P3_take3_0[0]/abar a7 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1013 P3_take3_0[0]/pinbar P3_take3_0[0]/pin gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=1680 ps=1376
+M1014 P3_take3_0[0]/a_82_70# P3_take3_0[0]/bbar vdd Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1015 c7 mout P3_take3_0[0]/a_82_70# Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1016 P3_take3_0[0]/a_50_74# P3_take3_0[0]/minbar c7 Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 P3_take3_0[0]/bbar b7 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1018 P3_take3_0[0]/abar a7 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1019 P3_take3_0[0]/minbar mout vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1020 P3_take3_0[0]/bbar b7 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1021 P3_take3_0[0]/a_50_31# P3_take3_0[0]/abar c7 Gnd nfet w=4 l=2
++  ad=96 pd=72 as=40 ps=36
+M1022 P3_take3_0[0]/minbar mout gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1023 gnd P3_take3_0[0]/bbar P3_take3_0[0]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 P3_take3_0[0]/a_50_31# mout gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1025 c7 P3_take3_0[0]/minbar P3_take3_0[0]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 P3_take3_0[0]/a_2_9# P3_take3_0[0]/pinbar mout Gnd nfet w=5 l=2
++  ad=162 pd=118 as=93 ps=58
+M1027 mout a7 P3_take3_0[0]/a_27_23# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=46 ps=40
+M1028 P3_take3_0[0]/a_50_22# P3_take3_0[0]/abar mout Gnd nfet w=5 l=2
++  ad=70 pd=38 as=0 ps=0
+M1029 P3_take3_0[0]/a_2_9# b7 P3_take3_0[0]/a_50_22# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 P3_take3_0[0]/a_27_23# P3_take3_0[0]/bbar P3_take3_0[0]/a_2_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 P3_take3_0[0]/a_2_9# P3_take3_0[0]/pin gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 P3_take3_0[0]/a_34_9# a7 P3_take3_0[0]/a_2_9# Gnd nfet w=5 l=2
++  ad=140 pd=76 as=0 ps=0
+M1033 gnd P3_take3_0[0]/abar P3_take3_0[0]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 P3_take3_0[0]/a_34_9# b7 gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1035 P3_take3_0[0]/a_2_9# P3_take3_0[0]/bbar P3_take3_0[0]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 P3_take3_0[1]/a_2_100# P3_take3_0[1]/pin P3_take3_0[0]/pin Vdd pfet w=9 l=2
++  ad=167 pd=78 as=70 ps=56
+M1037 P3_take3_0[1]/a_2_100# a6 P3_take3_0[1]/a_27_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=70 ps=56
+M1038 P3_take3_0[1]/a_50_101# P3_take3_0[1]/abar P3_take3_0[1]/a_2_100# Vdd pfet w=9 l=2
++  ad=126 pd=46 as=0 ps=0
+M1039 vdd b6 P3_take3_0[1]/a_50_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 P3_take3_0[1]/a_27_101# P3_take3_0[1]/bbar vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 P3_take3_0[1]/a_18_86# P3_take3_0[1]/pinbar P3_take3_0[0]/pin Vdd pfet w=9 l=2
++  ad=161 pd=74 as=0 ps=0
+M1042 P3_take3_0[1]/a_34_86# a6 P3_take3_0[1]/a_18_86# Vdd pfet w=9 l=2
++  ad=252 pd=92 as=0 ps=0
+M1043 vdd P3_take3_0[1]/abar P3_take3_0[1]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 P3_take3_0[1]/a_34_86# b6 vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1045 P3_take3_0[1]/a_18_86# P3_take3_0[1]/bbar P3_take3_0[1]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 P3_take3_0[1]/pinbar P3_take3_0[1]/pin vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1047 P3_take3_0[1]/a_50_74# P3_take3_0[1]/abar vdd Vdd pfet w=8 l=2
++  ad=72 pd=52 as=0 ps=0
+M1048 P3_take3_0[1]/abar a6 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1049 P3_take3_0[1]/pinbar P3_take3_0[1]/pin gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1050 P3_take3_0[1]/a_82_70# P3_take3_0[1]/bbar vdd Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1051 c6 mout P3_take3_0[1]/a_82_70# Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1052 P3_take3_0[1]/a_50_74# P3_take3_0[1]/minbar c6 Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1053 P3_take3_0[1]/bbar b6 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1054 P3_take3_0[1]/abar a6 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1055 P3_take3_0[1]/minbar mout vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1056 P3_take3_0[1]/bbar b6 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1057 P3_take3_0[1]/a_50_31# P3_take3_0[1]/abar c6 Gnd nfet w=4 l=2
++  ad=96 pd=72 as=40 ps=36
+M1058 P3_take3_0[1]/minbar mout gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1059 gnd P3_take3_0[1]/bbar P3_take3_0[1]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 P3_take3_0[1]/a_50_31# mout gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1061 c6 P3_take3_0[1]/minbar P3_take3_0[1]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 P3_take3_0[1]/a_2_9# P3_take3_0[1]/pinbar P3_take3_0[0]/pin Gnd nfet w=5 l=2
++  ad=162 pd=118 as=93 ps=58
+M1063 P3_take3_0[0]/pin a6 P3_take3_0[1]/a_27_23# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=46 ps=40
+M1064 P3_take3_0[1]/a_50_22# P3_take3_0[1]/abar P3_take3_0[0]/pin Gnd nfet w=5 l=2
++  ad=70 pd=38 as=0 ps=0
+M1065 P3_take3_0[1]/a_2_9# b6 P3_take3_0[1]/a_50_22# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1066 P3_take3_0[1]/a_27_23# P3_take3_0[1]/bbar P3_take3_0[1]/a_2_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1067 P3_take3_0[1]/a_2_9# P3_take3_0[1]/pin gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1068 P3_take3_0[1]/a_34_9# a6 P3_take3_0[1]/a_2_9# Gnd nfet w=5 l=2
++  ad=140 pd=76 as=0 ps=0
+M1069 gnd P3_take3_0[1]/abar P3_take3_0[1]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 P3_take3_0[1]/a_34_9# b6 gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1071 P3_take3_0[1]/a_2_9# P3_take3_0[1]/bbar P3_take3_0[1]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1072 P3_take3_0[2]/a_2_100# P3_take3_0[2]/pin P3_take3_0[1]/pin Vdd pfet w=9 l=2
++  ad=167 pd=78 as=70 ps=56
+M1073 P3_take3_0[2]/a_2_100# a5 P3_take3_0[2]/a_27_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=70 ps=56
+M1074 P3_take3_0[2]/a_50_101# P3_take3_0[2]/abar P3_take3_0[2]/a_2_100# Vdd pfet w=9 l=2
++  ad=126 pd=46 as=0 ps=0
+M1075 vdd b5 P3_take3_0[2]/a_50_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1076 P3_take3_0[2]/a_27_101# P3_take3_0[2]/bbar vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1077 P3_take3_0[2]/a_18_86# P3_take3_0[2]/pinbar P3_take3_0[1]/pin Vdd pfet w=9 l=2
++  ad=161 pd=74 as=0 ps=0
+M1078 P3_take3_0[2]/a_34_86# a5 P3_take3_0[2]/a_18_86# Vdd pfet w=9 l=2
++  ad=252 pd=92 as=0 ps=0
+M1079 vdd P3_take3_0[2]/abar P3_take3_0[2]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 P3_take3_0[2]/a_34_86# b5 vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1081 P3_take3_0[2]/a_18_86# P3_take3_0[2]/bbar P3_take3_0[2]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 P3_take3_0[2]/pinbar P3_take3_0[2]/pin vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1083 P3_take3_0[2]/a_50_74# P3_take3_0[2]/abar vdd Vdd pfet w=8 l=2
++  ad=72 pd=52 as=0 ps=0
+M1084 P3_take3_0[2]/abar a5 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1085 P3_take3_0[2]/pinbar P3_take3_0[2]/pin gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1086 P3_take3_0[2]/a_82_70# P3_take3_0[2]/bbar vdd Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1087 c5 mout P3_take3_0[2]/a_82_70# Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1088 P3_take3_0[2]/a_50_74# P3_take3_0[2]/minbar c5 Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1089 P3_take3_0[2]/bbar b5 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1090 P3_take3_0[2]/abar a5 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1091 P3_take3_0[2]/minbar mout vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1092 P3_take3_0[2]/bbar b5 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1093 P3_take3_0[2]/a_50_31# P3_take3_0[2]/abar c5 Gnd nfet w=4 l=2
++  ad=96 pd=72 as=40 ps=36
+M1094 P3_take3_0[2]/minbar mout gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1095 gnd P3_take3_0[2]/bbar P3_take3_0[2]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1096 P3_take3_0[2]/a_50_31# mout gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1097 c5 P3_take3_0[2]/minbar P3_take3_0[2]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1098 P3_take3_0[2]/a_2_9# P3_take3_0[2]/pinbar P3_take3_0[1]/pin Gnd nfet w=5 l=2
++  ad=162 pd=118 as=93 ps=58
+M1099 P3_take3_0[1]/pin a5 P3_take3_0[2]/a_27_23# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=46 ps=40
+M1100 P3_take3_0[2]/a_50_22# P3_take3_0[2]/abar P3_take3_0[1]/pin Gnd nfet w=5 l=2
++  ad=70 pd=38 as=0 ps=0
+M1101 P3_take3_0[2]/a_2_9# b5 P3_take3_0[2]/a_50_22# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 P3_take3_0[2]/a_27_23# P3_take3_0[2]/bbar P3_take3_0[2]/a_2_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1103 P3_take3_0[2]/a_2_9# P3_take3_0[2]/pin gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1104 P3_take3_0[2]/a_34_9# a5 P3_take3_0[2]/a_2_9# Gnd nfet w=5 l=2
++  ad=140 pd=76 as=0 ps=0
+M1105 gnd P3_take3_0[2]/abar P3_take3_0[2]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1106 P3_take3_0[2]/a_34_9# b5 gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1107 P3_take3_0[2]/a_2_9# P3_take3_0[2]/bbar P3_take3_0[2]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1108 P3_take3_0[3]/a_2_100# P3_take3_0[3]/pin P3_take3_0[2]/pin Vdd pfet w=9 l=2
++  ad=167 pd=78 as=70 ps=56
+M1109 P3_take3_0[3]/a_2_100# a4 P3_take3_0[3]/a_27_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=70 ps=56
+M1110 P3_take3_0[3]/a_50_101# P3_take3_0[3]/abar P3_take3_0[3]/a_2_100# Vdd pfet w=9 l=2
++  ad=126 pd=46 as=0 ps=0
+M1111 vdd b4 P3_take3_0[3]/a_50_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1112 P3_take3_0[3]/a_27_101# P3_take3_0[3]/bbar vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1113 P3_take3_0[3]/a_18_86# P3_take3_0[3]/pinbar P3_take3_0[2]/pin Vdd pfet w=9 l=2
++  ad=161 pd=74 as=0 ps=0
+M1114 P3_take3_0[3]/a_34_86# a4 P3_take3_0[3]/a_18_86# Vdd pfet w=9 l=2
++  ad=252 pd=92 as=0 ps=0
+M1115 vdd P3_take3_0[3]/abar P3_take3_0[3]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1116 P3_take3_0[3]/a_34_86# b4 vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1117 P3_take3_0[3]/a_18_86# P3_take3_0[3]/bbar P3_take3_0[3]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1118 P3_take3_0[3]/pinbar P3_take3_0[3]/pin vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1119 P3_take3_0[3]/a_50_74# P3_take3_0[3]/abar vdd Vdd pfet w=8 l=2
++  ad=72 pd=52 as=0 ps=0
+M1120 P3_take3_0[3]/abar a4 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1121 P3_take3_0[3]/pinbar P3_take3_0[3]/pin gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1122 P3_take3_0[3]/a_82_70# P3_take3_0[3]/bbar vdd Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1123 c4 mout P3_take3_0[3]/a_82_70# Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1124 P3_take3_0[3]/a_50_74# P3_take3_0[3]/minbar c4 Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1125 P3_take3_0[3]/bbar b4 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1126 P3_take3_0[3]/abar a4 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1127 P3_take3_0[3]/minbar mout vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1128 P3_take3_0[3]/bbar b4 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1129 P3_take3_0[3]/a_50_31# P3_take3_0[3]/abar c4 Gnd nfet w=4 l=2
++  ad=96 pd=72 as=40 ps=36
+M1130 P3_take3_0[3]/minbar mout gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1131 gnd P3_take3_0[3]/bbar P3_take3_0[3]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1132 P3_take3_0[3]/a_50_31# mout gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1133 c4 P3_take3_0[3]/minbar P3_take3_0[3]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1134 P3_take3_0[3]/a_2_9# P3_take3_0[3]/pinbar P3_take3_0[2]/pin Gnd nfet w=5 l=2
++  ad=162 pd=118 as=93 ps=58
+M1135 P3_take3_0[2]/pin a4 P3_take3_0[3]/a_27_23# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=46 ps=40
+M1136 P3_take3_0[3]/a_50_22# P3_take3_0[3]/abar P3_take3_0[2]/pin Gnd nfet w=5 l=2
++  ad=70 pd=38 as=0 ps=0
+M1137 P3_take3_0[3]/a_2_9# b4 P3_take3_0[3]/a_50_22# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1138 P3_take3_0[3]/a_27_23# P3_take3_0[3]/bbar P3_take3_0[3]/a_2_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1139 P3_take3_0[3]/a_2_9# P3_take3_0[3]/pin gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 P3_take3_0[3]/a_34_9# a4 P3_take3_0[3]/a_2_9# Gnd nfet w=5 l=2
++  ad=140 pd=76 as=0 ps=0
+M1141 gnd P3_take3_0[3]/abar P3_take3_0[3]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1142 P3_take3_0[3]/a_34_9# b4 gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1143 P3_take3_0[3]/a_2_9# P3_take3_0[3]/bbar P3_take3_0[3]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 P3_take3_0[4]/a_2_100# P3_take3_0[4]/pin P3_take3_0[3]/pin Vdd pfet w=9 l=2
++  ad=167 pd=78 as=70 ps=56
+M1145 P3_take3_0[4]/a_2_100# a3 P3_take3_0[4]/a_27_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=70 ps=56
+M1146 P3_take3_0[4]/a_50_101# P3_take3_0[4]/abar P3_take3_0[4]/a_2_100# Vdd pfet w=9 l=2
++  ad=126 pd=46 as=0 ps=0
+M1147 vdd b3 P3_take3_0[4]/a_50_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 P3_take3_0[4]/a_27_101# P3_take3_0[4]/bbar vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1149 P3_take3_0[4]/a_18_86# P3_take3_0[4]/pinbar P3_take3_0[3]/pin Vdd pfet w=9 l=2
++  ad=161 pd=74 as=0 ps=0
+M1150 P3_take3_0[4]/a_34_86# a3 P3_take3_0[4]/a_18_86# Vdd pfet w=9 l=2
++  ad=252 pd=92 as=0 ps=0
+M1151 vdd P3_take3_0[4]/abar P3_take3_0[4]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1152 P3_take3_0[4]/a_34_86# b3 vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1153 P3_take3_0[4]/a_18_86# P3_take3_0[4]/bbar P3_take3_0[4]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1154 P3_take3_0[4]/pinbar P3_take3_0[4]/pin vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1155 P3_take3_0[4]/a_50_74# P3_take3_0[4]/abar vdd Vdd pfet w=8 l=2
++  ad=72 pd=52 as=0 ps=0
+M1156 P3_take3_0[4]/abar a3 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1157 P3_take3_0[4]/pinbar P3_take3_0[4]/pin gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1158 P3_take3_0[4]/a_82_70# P3_take3_0[4]/bbar vdd Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1159 c3 mout P3_take3_0[4]/a_82_70# Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1160 P3_take3_0[4]/a_50_74# P3_take3_0[4]/minbar c3 Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1161 P3_take3_0[4]/bbar b3 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1162 P3_take3_0[4]/abar a3 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1163 P3_take3_0[4]/minbar mout vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1164 P3_take3_0[4]/bbar b3 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1165 P3_take3_0[4]/a_50_31# P3_take3_0[4]/abar c3 Gnd nfet w=4 l=2
++  ad=96 pd=72 as=40 ps=36
+M1166 P3_take3_0[4]/minbar mout gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1167 gnd P3_take3_0[4]/bbar P3_take3_0[4]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1168 P3_take3_0[4]/a_50_31# mout gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1169 c3 P3_take3_0[4]/minbar P3_take3_0[4]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1170 P3_take3_0[4]/a_2_9# P3_take3_0[4]/pinbar P3_take3_0[3]/pin Gnd nfet w=5 l=2
++  ad=162 pd=118 as=93 ps=58
+M1171 P3_take3_0[3]/pin a3 P3_take3_0[4]/a_27_23# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=46 ps=40
+M1172 P3_take3_0[4]/a_50_22# P3_take3_0[4]/abar P3_take3_0[3]/pin Gnd nfet w=5 l=2
++  ad=70 pd=38 as=0 ps=0
+M1173 P3_take3_0[4]/a_2_9# b3 P3_take3_0[4]/a_50_22# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1174 P3_take3_0[4]/a_27_23# P3_take3_0[4]/bbar P3_take3_0[4]/a_2_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1175 P3_take3_0[4]/a_2_9# P3_take3_0[4]/pin gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1176 P3_take3_0[4]/a_34_9# a3 P3_take3_0[4]/a_2_9# Gnd nfet w=5 l=2
++  ad=140 pd=76 as=0 ps=0
+M1177 gnd P3_take3_0[4]/abar P3_take3_0[4]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1178 P3_take3_0[4]/a_34_9# b3 gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1179 P3_take3_0[4]/a_2_9# P3_take3_0[4]/bbar P3_take3_0[4]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1180 P3_take3_0[5]/a_2_100# P3_take3_0[5]/pin P3_take3_0[4]/pin Vdd pfet w=9 l=2
++  ad=167 pd=78 as=70 ps=56
+M1181 P3_take3_0[5]/a_2_100# a2 P3_take3_0[5]/a_27_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=70 ps=56
+M1182 P3_take3_0[5]/a_50_101# P3_take3_0[5]/abar P3_take3_0[5]/a_2_100# Vdd pfet w=9 l=2
++  ad=126 pd=46 as=0 ps=0
+M1183 vdd b2 P3_take3_0[5]/a_50_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1184 P3_take3_0[5]/a_27_101# P3_take3_0[5]/bbar vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1185 P3_take3_0[5]/a_18_86# P3_take3_0[5]/pinbar P3_take3_0[4]/pin Vdd pfet w=9 l=2
++  ad=161 pd=74 as=0 ps=0
+M1186 P3_take3_0[5]/a_34_86# a2 P3_take3_0[5]/a_18_86# Vdd pfet w=9 l=2
++  ad=252 pd=92 as=0 ps=0
+M1187 vdd P3_take3_0[5]/abar P3_take3_0[5]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1188 P3_take3_0[5]/a_34_86# b2 vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1189 P3_take3_0[5]/a_18_86# P3_take3_0[5]/bbar P3_take3_0[5]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1190 P3_take3_0[5]/pinbar P3_take3_0[5]/pin vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1191 P3_take3_0[5]/a_50_74# P3_take3_0[5]/abar vdd Vdd pfet w=8 l=2
++  ad=72 pd=52 as=0 ps=0
+M1192 P3_take3_0[5]/abar a2 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1193 P3_take3_0[5]/pinbar P3_take3_0[5]/pin gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1194 P3_take3_0[5]/a_82_70# P3_take3_0[5]/bbar vdd Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1195 c2 mout P3_take3_0[5]/a_82_70# Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1196 P3_take3_0[5]/a_50_74# P3_take3_0[5]/minbar c2 Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1197 P3_take3_0[5]/bbar b2 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1198 P3_take3_0[5]/abar a2 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1199 P3_take3_0[5]/minbar mout vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1200 P3_take3_0[5]/bbar b2 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1201 P3_take3_0[5]/a_50_31# P3_take3_0[5]/abar c2 Gnd nfet w=4 l=2
++  ad=96 pd=72 as=40 ps=36
+M1202 P3_take3_0[5]/minbar mout gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1203 gnd P3_take3_0[5]/bbar P3_take3_0[5]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1204 P3_take3_0[5]/a_50_31# mout gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1205 c2 P3_take3_0[5]/minbar P3_take3_0[5]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1206 P3_take3_0[5]/a_2_9# P3_take3_0[5]/pinbar P3_take3_0[4]/pin Gnd nfet w=5 l=2
++  ad=162 pd=118 as=93 ps=58
+M1207 P3_take3_0[4]/pin a2 P3_take3_0[5]/a_27_23# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=46 ps=40
+M1208 P3_take3_0[5]/a_50_22# P3_take3_0[5]/abar P3_take3_0[4]/pin Gnd nfet w=5 l=2
++  ad=70 pd=38 as=0 ps=0
+M1209 P3_take3_0[5]/a_2_9# b2 P3_take3_0[5]/a_50_22# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1210 P3_take3_0[5]/a_27_23# P3_take3_0[5]/bbar P3_take3_0[5]/a_2_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1211 P3_take3_0[5]/a_2_9# P3_take3_0[5]/pin gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1212 P3_take3_0[5]/a_34_9# a2 P3_take3_0[5]/a_2_9# Gnd nfet w=5 l=2
++  ad=140 pd=76 as=0 ps=0
+M1213 gnd P3_take3_0[5]/abar P3_take3_0[5]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1214 P3_take3_0[5]/a_34_9# b2 gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1215 P3_take3_0[5]/a_2_9# P3_take3_0[5]/bbar P3_take3_0[5]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1216 P3_take3_0[6]/a_2_100# P3_take3_0[6]/pin P3_take3_0[5]/pin Vdd pfet w=9 l=2
++  ad=167 pd=78 as=70 ps=56
+M1217 P3_take3_0[6]/a_2_100# a1 P3_take3_0[6]/a_27_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=70 ps=56
+M1218 P3_take3_0[6]/a_50_101# P3_take3_0[6]/abar P3_take3_0[6]/a_2_100# Vdd pfet w=9 l=2
++  ad=126 pd=46 as=0 ps=0
+M1219 vdd b1 P3_take3_0[6]/a_50_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1220 P3_take3_0[6]/a_27_101# P3_take3_0[6]/bbar vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1221 P3_take3_0[6]/a_18_86# P3_take3_0[6]/pinbar P3_take3_0[5]/pin Vdd pfet w=9 l=2
++  ad=161 pd=74 as=0 ps=0
+M1222 P3_take3_0[6]/a_34_86# a1 P3_take3_0[6]/a_18_86# Vdd pfet w=9 l=2
++  ad=252 pd=92 as=0 ps=0
+M1223 vdd P3_take3_0[6]/abar P3_take3_0[6]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1224 P3_take3_0[6]/a_34_86# b1 vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1225 P3_take3_0[6]/a_18_86# P3_take3_0[6]/bbar P3_take3_0[6]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1226 P3_take3_0[6]/pinbar P3_take3_0[6]/pin vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1227 P3_take3_0[6]/a_50_74# P3_take3_0[6]/abar vdd Vdd pfet w=8 l=2
++  ad=72 pd=52 as=0 ps=0
+M1228 P3_take3_0[6]/abar a1 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1229 P3_take3_0[6]/pinbar P3_take3_0[6]/pin gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1230 P3_take3_0[6]/a_82_70# P3_take3_0[6]/bbar vdd Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1231 c1 mout P3_take3_0[6]/a_82_70# Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1232 P3_take3_0[6]/a_50_74# P3_take3_0[6]/minbar c1 Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1233 P3_take3_0[6]/bbar b1 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1234 P3_take3_0[6]/abar a1 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1235 P3_take3_0[6]/minbar mout vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1236 P3_take3_0[6]/bbar b1 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1237 P3_take3_0[6]/a_50_31# P3_take3_0[6]/abar c1 Gnd nfet w=4 l=2
++  ad=96 pd=72 as=40 ps=36
+M1238 P3_take3_0[6]/minbar mout gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1239 gnd P3_take3_0[6]/bbar P3_take3_0[6]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1240 P3_take3_0[6]/a_50_31# mout gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1241 c1 P3_take3_0[6]/minbar P3_take3_0[6]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1242 P3_take3_0[6]/a_2_9# P3_take3_0[6]/pinbar P3_take3_0[5]/pin Gnd nfet w=5 l=2
++  ad=162 pd=118 as=93 ps=58
+M1243 P3_take3_0[5]/pin a1 P3_take3_0[6]/a_27_23# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=46 ps=40
+M1244 P3_take3_0[6]/a_50_22# P3_take3_0[6]/abar P3_take3_0[5]/pin Gnd nfet w=5 l=2
++  ad=70 pd=38 as=0 ps=0
+M1245 P3_take3_0[6]/a_2_9# b1 P3_take3_0[6]/a_50_22# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1246 P3_take3_0[6]/a_27_23# P3_take3_0[6]/bbar P3_take3_0[6]/a_2_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1247 P3_take3_0[6]/a_2_9# P3_take3_0[6]/pin gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1248 P3_take3_0[6]/a_34_9# a1 P3_take3_0[6]/a_2_9# Gnd nfet w=5 l=2
++  ad=140 pd=76 as=0 ps=0
+M1249 gnd P3_take3_0[6]/abar P3_take3_0[6]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1250 P3_take3_0[6]/a_34_9# b1 gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1251 P3_take3_0[6]/a_2_9# P3_take3_0[6]/bbar P3_take3_0[6]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1252 P3_take3_0[7]/a_2_100# pin P3_take3_0[6]/pin Vdd pfet w=9 l=2
++  ad=167 pd=78 as=70 ps=56
+M1253 P3_take3_0[7]/a_2_100# a0 P3_take3_0[7]/a_27_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=70 ps=56
+M1254 P3_take3_0[7]/a_50_101# P3_take3_0[7]/abar P3_take3_0[7]/a_2_100# Vdd pfet w=9 l=2
++  ad=126 pd=46 as=0 ps=0
+M1255 vdd b0 P3_take3_0[7]/a_50_101# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1256 P3_take3_0[7]/a_27_101# P3_take3_0[7]/bbar vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1257 P3_take3_0[7]/a_18_86# P3_take3_0[7]/pinbar P3_take3_0[6]/pin Vdd pfet w=9 l=2
++  ad=161 pd=74 as=0 ps=0
+M1258 P3_take3_0[7]/a_34_86# a0 P3_take3_0[7]/a_18_86# Vdd pfet w=9 l=2
++  ad=252 pd=92 as=0 ps=0
+M1259 vdd P3_take3_0[7]/abar P3_take3_0[7]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1260 P3_take3_0[7]/a_34_86# b0 vdd Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1261 P3_take3_0[7]/a_18_86# P3_take3_0[7]/bbar P3_take3_0[7]/a_34_86# Vdd pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1262 P3_take3_0[7]/pinbar pin vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1263 P3_take3_0[7]/a_50_74# P3_take3_0[7]/abar vdd Vdd pfet w=8 l=2
++  ad=72 pd=52 as=0 ps=0
+M1264 P3_take3_0[7]/abar a0 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1265 P3_take3_0[7]/pinbar pin gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1266 P3_take3_0[7]/a_82_70# P3_take3_0[7]/bbar vdd Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1267 c0 mout P3_take3_0[7]/a_82_70# Vdd pfet w=8 l=2
++  ad=112 pd=44 as=0 ps=0
+M1268 P3_take3_0[7]/a_50_74# P3_take3_0[7]/minbar c0 Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1269 P3_take3_0[7]/bbar b0 vdd Vdd pfet w=7 l=2
++  ad=29 pd=24 as=0 ps=0
+M1270 P3_take3_0[7]/abar a0 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1271 P3_take3_0[7]/minbar mout vdd Vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1272 P3_take3_0[7]/bbar b0 gnd Gnd nfet w=5 l=2
++  ad=23 pd=20 as=0 ps=0
+M1273 P3_take3_0[7]/a_50_31# P3_take3_0[7]/abar c0 Gnd nfet w=4 l=2
++  ad=96 pd=72 as=40 ps=36
+M1274 P3_take3_0[7]/minbar mout gnd Gnd nfet w=3 l=2
++  ad=19 pd=18 as=0 ps=0
+M1275 gnd P3_take3_0[7]/bbar P3_take3_0[7]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1276 P3_take3_0[7]/a_50_31# mout gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1277 c0 P3_take3_0[7]/minbar P3_take3_0[7]/a_50_31# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1278 P3_take3_0[7]/a_2_9# P3_take3_0[7]/pinbar P3_take3_0[6]/pin Gnd nfet w=5 l=2
++  ad=162 pd=118 as=93 ps=58
+M1279 P3_take3_0[6]/pin a0 P3_take3_0[7]/a_27_23# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=46 ps=40
+M1280 P3_take3_0[7]/a_50_22# P3_take3_0[7]/abar P3_take3_0[6]/pin Gnd nfet w=5 l=2
++  ad=70 pd=38 as=0 ps=0
+M1281 P3_take3_0[7]/a_2_9# b0 P3_take3_0[7]/a_50_22# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1282 P3_take3_0[7]/a_27_23# P3_take3_0[7]/bbar P3_take3_0[7]/a_2_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1283 P3_take3_0[7]/a_2_9# pin gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1284 P3_take3_0[7]/a_34_9# a0 P3_take3_0[7]/a_2_9# Gnd nfet w=5 l=2
++  ad=140 pd=76 as=0 ps=0
+M1285 gnd P3_take3_0[7]/abar P3_take3_0[7]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1286 P3_take3_0[7]/a_34_9# b0 gnd Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+M1287 P3_take3_0[7]/a_2_9# P3_take3_0[7]/bbar P3_take3_0[7]/a_34_9# Gnd nfet w=5 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 P3_take3_0[4]/pin vdd 2.08fF
+C1 P3_take3_0[2]/pin vdd 2.08fF
+C2 P3_take3_0[6]/pin vdd 2.08fF
+C3 P3_take3_0[5]/pin vdd 2.08fF
+C4 P3_take3_0[3]/pin vdd 2.08fF
+C5 P3_take3_0[0]/pin vdd 2.08fF
+C6 mout gnd 2.02fF
+C7 P3_take3_0[1]/pin vdd 2.08fF
+C8 P3_take3_0[7]/a_2_9# Gnd 2.50fF
+C9 P3_take3_0[7]/a_50_31# Gnd 2.86fF
+C10 c0 Gnd 6.71fF
+C11 P3_take3_0[7]/minbar Gnd 2.13fF
+C12 gnd Gnd 117.48fF
+C13 P3_take3_0[7]/a_50_74# Gnd 2.16fF
+C14 P3_take3_0[7]/pinbar Gnd 2.47fF
+C15 P3_take3_0[7]/bbar Gnd 2.38fF
+C16 vdd Gnd 123.06fF
+C17 P3_take3_0[7]/abar Gnd 2.38fF
+C18 P3_take3_0[6]/pin Gnd 10.53fF
+C19 pin Gnd 3.72fF
+C20 b0 Gnd 2.03fF
+C21 a0 Gnd 2.03fF
+C22 P3_take3_0[6]/a_2_9# Gnd 2.50fF
+C23 P3_take3_0[6]/a_50_31# Gnd 2.86fF
+C24 c1 Gnd 6.71fF
+C25 P3_take3_0[6]/minbar Gnd 2.13fF
+C26 P3_take3_0[6]/a_50_74# Gnd 2.16fF
+C27 P3_take3_0[6]/pinbar Gnd 2.47fF
+C28 P3_take3_0[6]/bbar Gnd 2.38fF
+C29 P3_take3_0[6]/abar Gnd 2.38fF
+C30 P3_take3_0[5]/pin Gnd 10.53fF
+C31 b1 Gnd 2.03fF
+C32 a1 Gnd 2.03fF
+C33 P3_take3_0[5]/a_2_9# Gnd 2.50fF
+C34 P3_take3_0[5]/a_50_31# Gnd 2.86fF
+C35 c2 Gnd 6.71fF
+C36 P3_take3_0[5]/minbar Gnd 2.13fF
+C37 P3_take3_0[5]/a_50_74# Gnd 2.16fF
+C38 P3_take3_0[5]/pinbar Gnd 2.47fF
+C39 P3_take3_0[5]/bbar Gnd 2.38fF
+C40 P3_take3_0[5]/abar Gnd 2.38fF
+C41 P3_take3_0[4]/pin Gnd 10.53fF
+C42 b2 Gnd 2.03fF
+C43 a2 Gnd 2.03fF
+C44 P3_take3_0[4]/a_2_9# Gnd 2.50fF
+C45 P3_take3_0[4]/a_50_31# Gnd 2.86fF
+C46 c3 Gnd 6.71fF
+C47 P3_take3_0[4]/minbar Gnd 2.13fF
+C48 P3_take3_0[4]/a_50_74# Gnd 2.16fF
+C49 P3_take3_0[4]/pinbar Gnd 2.47fF
+C50 P3_take3_0[4]/bbar Gnd 2.38fF
+C51 P3_take3_0[4]/abar Gnd 2.38fF
+C52 P3_take3_0[3]/pin Gnd 10.53fF
+C53 b3 Gnd 2.03fF
+C54 a3 Gnd 2.03fF
+C55 P3_take3_0[3]/a_2_9# Gnd 2.50fF
+C56 P3_take3_0[3]/a_50_31# Gnd 2.86fF
+C57 c4 Gnd 6.71fF
+C58 P3_take3_0[3]/minbar Gnd 2.13fF
+C59 P3_take3_0[3]/a_50_74# Gnd 2.16fF
+C60 P3_take3_0[3]/pinbar Gnd 2.47fF
+C61 P3_take3_0[3]/bbar Gnd 2.38fF
+C62 P3_take3_0[3]/abar Gnd 2.38fF
+C63 P3_take3_0[2]/pin Gnd 10.53fF
+C64 a4 Gnd 2.03fF
+C65 P3_take3_0[2]/a_2_9# Gnd 2.50fF
+C66 P3_take3_0[2]/a_50_31# Gnd 2.86fF
+C67 c5 Gnd 6.71fF
+C68 P3_take3_0[2]/minbar Gnd 2.13fF
+C69 P3_take3_0[2]/a_50_74# Gnd 2.16fF
+C70 P3_take3_0[2]/pinbar Gnd 2.47fF
+C71 P3_take3_0[2]/bbar Gnd 2.38fF
+C72 P3_take3_0[2]/abar Gnd 2.38fF
+C73 P3_take3_0[1]/pin Gnd 10.53fF
+C74 b5 Gnd 2.03fF
+C75 a5 Gnd 2.03fF
+C76 P3_take3_0[1]/a_2_9# Gnd 2.50fF
+C77 P3_take3_0[1]/a_50_31# Gnd 2.86fF
+C78 c6 Gnd 6.71fF
+C79 P3_take3_0[1]/minbar Gnd 2.13fF
+C80 P3_take3_0[1]/a_50_74# Gnd 2.16fF
+C81 P3_take3_0[1]/pinbar Gnd 2.47fF
+C82 P3_take3_0[1]/bbar Gnd 2.38fF
+C83 P3_take3_0[1]/abar Gnd 2.38fF
+C84 P3_take3_0[0]/pin Gnd 10.53fF
+C85 b6 Gnd 2.03fF
+C86 P3_take3_0[0]/a_2_9# Gnd 2.50fF
+C87 P3_take3_0[0]/a_50_31# Gnd 2.86fF
+C88 c7 Gnd 6.71fF
+C89 P3_take3_0[0]/minbar Gnd 2.13fF
+C90 P3_take3_0[0]/a_50_74# Gnd 2.16fF
+C91 P3_take3_0[0]/pinbar Gnd 2.47fF
+C92 P3_take3_0[0]/bbar Gnd 2.38fF
+C93 P3_take3_0[0]/abar Gnd 2.38fF
+C94 mout Gnd 77.17fF
+C95 b7 Gnd 2.03fF
+C96 a7 Gnd 2.03fF

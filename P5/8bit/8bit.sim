@@ -1,0 +1,549 @@
+| units: 30 tech: scmos format: MIT
+p P3_take3_0[0]/pin mout P3_take3_0[0]/a_2_100# 2 9 16 110
+p a7 P3_take3_0[0]/a_27_101# P3_take3_0[0]/a_2_100# 2 9 48 111
+p P3_take3_0[0]/abar P3_take3_0[0]/a_2_100# P3_take3_0[0]/a_50_101# 2 9 64 111
+p b7 P3_take3_0[0]/a_50_101# vdd 2 9 80 111
+p P3_take3_0[0]/bbar vdd P3_take3_0[0]/a_27_101# 2 9 96 111
+p P3_take3_0[0]/pinbar mout P3_take3_0[0]/a_18_86# 2 9 32 96
+p a7 P3_take3_0[0]/a_18_86# P3_take3_0[0]/a_34_86# 2 9 48 96
+p P3_take3_0[0]/abar P3_take3_0[0]/a_34_86# vdd 2 9 64 96
+p b7 vdd P3_take3_0[0]/a_34_86# 2 9 80 96
+p P3_take3_0[0]/bbar P3_take3_0[0]/a_34_86# P3_take3_0[0]/a_18_86# 2 9 96 96
+p P3_take3_0[0]/pin vdd P3_take3_0[0]/pinbar 2 4 16 72
+p P3_take3_0[0]/abar vdd P3_take3_0[0]/a_50_74# 2 8 64 84
+p a7 vdd P3_take3_0[0]/abar 2 7 48 72
+n P3_take3_0[0]/pin gnd P3_take3_0[0]/pinbar 2 3 16 57
+p P3_take3_0[0]/bbar vdd P3_take3_0[0]/a_82_70# 2 8 96 80
+p mout P3_take3_0[0]/a_82_70# c7 2 8 112 80
+p P3_take3_0[0]/minbar c7 P3_take3_0[0]/a_50_74# 2 8 128 80
+p b7 vdd P3_take3_0[0]/bbar 2 7 80 72
+n a7 gnd P3_take3_0[0]/abar 2 5 48 55
+p mout vdd P3_take3_0[0]/minbar 2 4 112 72
+n b7 gnd P3_take3_0[0]/bbar 2 5 80 55
+n P3_take3_0[0]/abar c7 P3_take3_0[0]/a_50_31# 2 4 64 41
+n mout gnd P3_take3_0[0]/minbar 2 3 112 57
+n P3_take3_0[0]/bbar P3_take3_0[0]/a_50_31# gnd 2 4 96 41
+n mout gnd P3_take3_0[0]/a_50_31# 2 4 112 41
+n P3_take3_0[0]/minbar P3_take3_0[0]/a_50_31# c7 2 4 128 41
+n P3_take3_0[0]/pinbar mout P3_take3_0[0]/a_2_9# 2 5 32 32
+n a7 P3_take3_0[0]/a_27_23# mout 2 5 48 32
+n P3_take3_0[0]/abar mout P3_take3_0[0]/a_50_22# 2 5 64 32
+n b7 P3_take3_0[0]/a_50_22# P3_take3_0[0]/a_2_9# 2 5 80 32
+n P3_take3_0[0]/bbar P3_take3_0[0]/a_2_9# P3_take3_0[0]/a_27_23# 2 5 96 32
+n P3_take3_0[0]/pin gnd P3_take3_0[0]/a_2_9# 2 5 16 19
+n a7 P3_take3_0[0]/a_2_9# P3_take3_0[0]/a_34_9# 2 5 48 19
+n P3_take3_0[0]/abar P3_take3_0[0]/a_34_9# gnd 2 5 64 19
+n b7 gnd P3_take3_0[0]/a_34_9# 2 5 80 19
+n P3_take3_0[0]/bbar P3_take3_0[0]/a_34_9# P3_take3_0[0]/a_2_9# 2 5 96 19
+p P3_take3_0[1]/pin P3_take3_0[0]/pin P3_take3_0[1]/a_2_100# 2 9 155 110
+p a6 P3_take3_0[1]/a_27_101# P3_take3_0[1]/a_2_100# 2 9 187 111
+p P3_take3_0[1]/abar P3_take3_0[1]/a_2_100# P3_take3_0[1]/a_50_101# 2 9 203 111
+p b6 P3_take3_0[1]/a_50_101# vdd 2 9 219 111
+p P3_take3_0[1]/bbar vdd P3_take3_0[1]/a_27_101# 2 9 235 111
+p P3_take3_0[1]/pinbar P3_take3_0[0]/pin P3_take3_0[1]/a_18_86# 2 9 171 96
+p a6 P3_take3_0[1]/a_18_86# P3_take3_0[1]/a_34_86# 2 9 187 96
+p P3_take3_0[1]/abar P3_take3_0[1]/a_34_86# vdd 2 9 203 96
+p b6 vdd P3_take3_0[1]/a_34_86# 2 9 219 96
+p P3_take3_0[1]/bbar P3_take3_0[1]/a_34_86# P3_take3_0[1]/a_18_86# 2 9 235 96
+p P3_take3_0[1]/pin vdd P3_take3_0[1]/pinbar 2 4 155 72
+p P3_take3_0[1]/abar vdd P3_take3_0[1]/a_50_74# 2 8 203 84
+p a6 vdd P3_take3_0[1]/abar 2 7 187 72
+n P3_take3_0[1]/pin gnd P3_take3_0[1]/pinbar 2 3 155 57
+p P3_take3_0[1]/bbar vdd P3_take3_0[1]/a_82_70# 2 8 235 80
+p mout P3_take3_0[1]/a_82_70# c6 2 8 251 80
+p P3_take3_0[1]/minbar c6 P3_take3_0[1]/a_50_74# 2 8 267 80
+p b6 vdd P3_take3_0[1]/bbar 2 7 219 72
+n a6 gnd P3_take3_0[1]/abar 2 5 187 55
+p mout vdd P3_take3_0[1]/minbar 2 4 251 72
+n b6 gnd P3_take3_0[1]/bbar 2 5 219 55
+n P3_take3_0[1]/abar c6 P3_take3_0[1]/a_50_31# 2 4 203 41
+n mout gnd P3_take3_0[1]/minbar 2 3 251 57
+n P3_take3_0[1]/bbar P3_take3_0[1]/a_50_31# gnd 2 4 235 41
+n mout gnd P3_take3_0[1]/a_50_31# 2 4 251 41
+n P3_take3_0[1]/minbar P3_take3_0[1]/a_50_31# c6 2 4 267 41
+n P3_take3_0[1]/pinbar P3_take3_0[0]/pin P3_take3_0[1]/a_2_9# 2 5 171 32
+n a6 P3_take3_0[1]/a_27_23# P3_take3_0[0]/pin 2 5 187 32
+n P3_take3_0[1]/abar P3_take3_0[0]/pin P3_take3_0[1]/a_50_22# 2 5 203 32
+n b6 P3_take3_0[1]/a_50_22# P3_take3_0[1]/a_2_9# 2 5 219 32
+n P3_take3_0[1]/bbar P3_take3_0[1]/a_2_9# P3_take3_0[1]/a_27_23# 2 5 235 32
+n P3_take3_0[1]/pin gnd P3_take3_0[1]/a_2_9# 2 5 155 19
+n a6 P3_take3_0[1]/a_2_9# P3_take3_0[1]/a_34_9# 2 5 187 19
+n P3_take3_0[1]/abar P3_take3_0[1]/a_34_9# gnd 2 5 203 19
+n b6 gnd P3_take3_0[1]/a_34_9# 2 5 219 19
+n P3_take3_0[1]/bbar P3_take3_0[1]/a_34_9# P3_take3_0[1]/a_2_9# 2 5 235 19
+p P3_take3_0[2]/pin P3_take3_0[1]/pin P3_take3_0[2]/a_2_100# 2 9 294 110
+p a5 P3_take3_0[2]/a_27_101# P3_take3_0[2]/a_2_100# 2 9 326 111
+p P3_take3_0[2]/abar P3_take3_0[2]/a_2_100# P3_take3_0[2]/a_50_101# 2 9 342 111
+p b5 P3_take3_0[2]/a_50_101# vdd 2 9 358 111
+p P3_take3_0[2]/bbar vdd P3_take3_0[2]/a_27_101# 2 9 374 111
+p P3_take3_0[2]/pinbar P3_take3_0[1]/pin P3_take3_0[2]/a_18_86# 2 9 310 96
+p a5 P3_take3_0[2]/a_18_86# P3_take3_0[2]/a_34_86# 2 9 326 96
+p P3_take3_0[2]/abar P3_take3_0[2]/a_34_86# vdd 2 9 342 96
+p b5 vdd P3_take3_0[2]/a_34_86# 2 9 358 96
+p P3_take3_0[2]/bbar P3_take3_0[2]/a_34_86# P3_take3_0[2]/a_18_86# 2 9 374 96
+p P3_take3_0[2]/pin vdd P3_take3_0[2]/pinbar 2 4 294 72
+p P3_take3_0[2]/abar vdd P3_take3_0[2]/a_50_74# 2 8 342 84
+p a5 vdd P3_take3_0[2]/abar 2 7 326 72
+n P3_take3_0[2]/pin gnd P3_take3_0[2]/pinbar 2 3 294 57
+p P3_take3_0[2]/bbar vdd P3_take3_0[2]/a_82_70# 2 8 374 80
+p mout P3_take3_0[2]/a_82_70# c5 2 8 390 80
+p P3_take3_0[2]/minbar c5 P3_take3_0[2]/a_50_74# 2 8 406 80
+p b5 vdd P3_take3_0[2]/bbar 2 7 358 72
+n a5 gnd P3_take3_0[2]/abar 2 5 326 55
+p mout vdd P3_take3_0[2]/minbar 2 4 390 72
+n b5 gnd P3_take3_0[2]/bbar 2 5 358 55
+n P3_take3_0[2]/abar c5 P3_take3_0[2]/a_50_31# 2 4 342 41
+n mout gnd P3_take3_0[2]/minbar 2 3 390 57
+n P3_take3_0[2]/bbar P3_take3_0[2]/a_50_31# gnd 2 4 374 41
+n mout gnd P3_take3_0[2]/a_50_31# 2 4 390 41
+n P3_take3_0[2]/minbar P3_take3_0[2]/a_50_31# c5 2 4 406 41
+n P3_take3_0[2]/pinbar P3_take3_0[1]/pin P3_take3_0[2]/a_2_9# 2 5 310 32
+n a5 P3_take3_0[2]/a_27_23# P3_take3_0[1]/pin 2 5 326 32
+n P3_take3_0[2]/abar P3_take3_0[1]/pin P3_take3_0[2]/a_50_22# 2 5 342 32
+n b5 P3_take3_0[2]/a_50_22# P3_take3_0[2]/a_2_9# 2 5 358 32
+n P3_take3_0[2]/bbar P3_take3_0[2]/a_2_9# P3_take3_0[2]/a_27_23# 2 5 374 32
+n P3_take3_0[2]/pin gnd P3_take3_0[2]/a_2_9# 2 5 294 19
+n a5 P3_take3_0[2]/a_2_9# P3_take3_0[2]/a_34_9# 2 5 326 19
+n P3_take3_0[2]/abar P3_take3_0[2]/a_34_9# gnd 2 5 342 19
+n b5 gnd P3_take3_0[2]/a_34_9# 2 5 358 19
+n P3_take3_0[2]/bbar P3_take3_0[2]/a_34_9# P3_take3_0[2]/a_2_9# 2 5 374 19
+p P3_take3_0[3]/pin P3_take3_0[2]/pin P3_take3_0[3]/a_2_100# 2 9 433 110
+p a4 P3_take3_0[3]/a_27_101# P3_take3_0[3]/a_2_100# 2 9 465 111
+p P3_take3_0[3]/abar P3_take3_0[3]/a_2_100# P3_take3_0[3]/a_50_101# 2 9 481 111
+p b4 P3_take3_0[3]/a_50_101# vdd 2 9 497 111
+p P3_take3_0[3]/bbar vdd P3_take3_0[3]/a_27_101# 2 9 513 111
+p P3_take3_0[3]/pinbar P3_take3_0[2]/pin P3_take3_0[3]/a_18_86# 2 9 449 96
+p a4 P3_take3_0[3]/a_18_86# P3_take3_0[3]/a_34_86# 2 9 465 96
+p P3_take3_0[3]/abar P3_take3_0[3]/a_34_86# vdd 2 9 481 96
+p b4 vdd P3_take3_0[3]/a_34_86# 2 9 497 96
+p P3_take3_0[3]/bbar P3_take3_0[3]/a_34_86# P3_take3_0[3]/a_18_86# 2 9 513 96
+p P3_take3_0[3]/pin vdd P3_take3_0[3]/pinbar 2 4 433 72
+p P3_take3_0[3]/abar vdd P3_take3_0[3]/a_50_74# 2 8 481 84
+p a4 vdd P3_take3_0[3]/abar 2 7 465 72
+n P3_take3_0[3]/pin gnd P3_take3_0[3]/pinbar 2 3 433 57
+p P3_take3_0[3]/bbar vdd P3_take3_0[3]/a_82_70# 2 8 513 80
+p mout P3_take3_0[3]/a_82_70# c4 2 8 529 80
+p P3_take3_0[3]/minbar c4 P3_take3_0[3]/a_50_74# 2 8 545 80
+p b4 vdd P3_take3_0[3]/bbar 2 7 497 72
+n a4 gnd P3_take3_0[3]/abar 2 5 465 55
+p mout vdd P3_take3_0[3]/minbar 2 4 529 72
+n b4 gnd P3_take3_0[3]/bbar 2 5 497 55
+n P3_take3_0[3]/abar c4 P3_take3_0[3]/a_50_31# 2 4 481 41
+n mout gnd P3_take3_0[3]/minbar 2 3 529 57
+n P3_take3_0[3]/bbar P3_take3_0[3]/a_50_31# gnd 2 4 513 41
+n mout gnd P3_take3_0[3]/a_50_31# 2 4 529 41
+n P3_take3_0[3]/minbar P3_take3_0[3]/a_50_31# c4 2 4 545 41
+n P3_take3_0[3]/pinbar P3_take3_0[2]/pin P3_take3_0[3]/a_2_9# 2 5 449 32
+n a4 P3_take3_0[3]/a_27_23# P3_take3_0[2]/pin 2 5 465 32
+n P3_take3_0[3]/abar P3_take3_0[2]/pin P3_take3_0[3]/a_50_22# 2 5 481 32
+n b4 P3_take3_0[3]/a_50_22# P3_take3_0[3]/a_2_9# 2 5 497 32
+n P3_take3_0[3]/bbar P3_take3_0[3]/a_2_9# P3_take3_0[3]/a_27_23# 2 5 513 32
+n P3_take3_0[3]/pin gnd P3_take3_0[3]/a_2_9# 2 5 433 19
+n a4 P3_take3_0[3]/a_2_9# P3_take3_0[3]/a_34_9# 2 5 465 19
+n P3_take3_0[3]/abar P3_take3_0[3]/a_34_9# gnd 2 5 481 19
+n b4 gnd P3_take3_0[3]/a_34_9# 2 5 497 19
+n P3_take3_0[3]/bbar P3_take3_0[3]/a_34_9# P3_take3_0[3]/a_2_9# 2 5 513 19
+p P3_take3_0[4]/pin P3_take3_0[3]/pin P3_take3_0[4]/a_2_100# 2 9 572 110
+p a3 P3_take3_0[4]/a_27_101# P3_take3_0[4]/a_2_100# 2 9 604 111
+p P3_take3_0[4]/abar P3_take3_0[4]/a_2_100# P3_take3_0[4]/a_50_101# 2 9 620 111
+p b3 P3_take3_0[4]/a_50_101# vdd 2 9 636 111
+p P3_take3_0[4]/bbar vdd P3_take3_0[4]/a_27_101# 2 9 652 111
+p P3_take3_0[4]/pinbar P3_take3_0[3]/pin P3_take3_0[4]/a_18_86# 2 9 588 96
+p a3 P3_take3_0[4]/a_18_86# P3_take3_0[4]/a_34_86# 2 9 604 96
+p P3_take3_0[4]/abar P3_take3_0[4]/a_34_86# vdd 2 9 620 96
+p b3 vdd P3_take3_0[4]/a_34_86# 2 9 636 96
+p P3_take3_0[4]/bbar P3_take3_0[4]/a_34_86# P3_take3_0[4]/a_18_86# 2 9 652 96
+p P3_take3_0[4]/pin vdd P3_take3_0[4]/pinbar 2 4 572 72
+p P3_take3_0[4]/abar vdd P3_take3_0[4]/a_50_74# 2 8 620 84
+p a3 vdd P3_take3_0[4]/abar 2 7 604 72
+n P3_take3_0[4]/pin gnd P3_take3_0[4]/pinbar 2 3 572 57
+p P3_take3_0[4]/bbar vdd P3_take3_0[4]/a_82_70# 2 8 652 80
+p mout P3_take3_0[4]/a_82_70# c3 2 8 668 80
+p P3_take3_0[4]/minbar c3 P3_take3_0[4]/a_50_74# 2 8 684 80
+p b3 vdd P3_take3_0[4]/bbar 2 7 636 72
+n a3 gnd P3_take3_0[4]/abar 2 5 604 55
+p mout vdd P3_take3_0[4]/minbar 2 4 668 72
+n b3 gnd P3_take3_0[4]/bbar 2 5 636 55
+n P3_take3_0[4]/abar c3 P3_take3_0[4]/a_50_31# 2 4 620 41
+n mout gnd P3_take3_0[4]/minbar 2 3 668 57
+n P3_take3_0[4]/bbar P3_take3_0[4]/a_50_31# gnd 2 4 652 41
+n mout gnd P3_take3_0[4]/a_50_31# 2 4 668 41
+n P3_take3_0[4]/minbar P3_take3_0[4]/a_50_31# c3 2 4 684 41
+n P3_take3_0[4]/pinbar P3_take3_0[3]/pin P3_take3_0[4]/a_2_9# 2 5 588 32
+n a3 P3_take3_0[4]/a_27_23# P3_take3_0[3]/pin 2 5 604 32
+n P3_take3_0[4]/abar P3_take3_0[3]/pin P3_take3_0[4]/a_50_22# 2 5 620 32
+n b3 P3_take3_0[4]/a_50_22# P3_take3_0[4]/a_2_9# 2 5 636 32
+n P3_take3_0[4]/bbar P3_take3_0[4]/a_2_9# P3_take3_0[4]/a_27_23# 2 5 652 32
+n P3_take3_0[4]/pin gnd P3_take3_0[4]/a_2_9# 2 5 572 19
+n a3 P3_take3_0[4]/a_2_9# P3_take3_0[4]/a_34_9# 2 5 604 19
+n P3_take3_0[4]/abar P3_take3_0[4]/a_34_9# gnd 2 5 620 19
+n b3 gnd P3_take3_0[4]/a_34_9# 2 5 636 19
+n P3_take3_0[4]/bbar P3_take3_0[4]/a_34_9# P3_take3_0[4]/a_2_9# 2 5 652 19
+p P3_take3_0[5]/pin P3_take3_0[4]/pin P3_take3_0[5]/a_2_100# 2 9 711 110
+p a2 P3_take3_0[5]/a_27_101# P3_take3_0[5]/a_2_100# 2 9 743 111
+p P3_take3_0[5]/abar P3_take3_0[5]/a_2_100# P3_take3_0[5]/a_50_101# 2 9 759 111
+p b2 P3_take3_0[5]/a_50_101# vdd 2 9 775 111
+p P3_take3_0[5]/bbar vdd P3_take3_0[5]/a_27_101# 2 9 791 111
+p P3_take3_0[5]/pinbar P3_take3_0[4]/pin P3_take3_0[5]/a_18_86# 2 9 727 96
+p a2 P3_take3_0[5]/a_18_86# P3_take3_0[5]/a_34_86# 2 9 743 96
+p P3_take3_0[5]/abar P3_take3_0[5]/a_34_86# vdd 2 9 759 96
+p b2 vdd P3_take3_0[5]/a_34_86# 2 9 775 96
+p P3_take3_0[5]/bbar P3_take3_0[5]/a_34_86# P3_take3_0[5]/a_18_86# 2 9 791 96
+p P3_take3_0[5]/pin vdd P3_take3_0[5]/pinbar 2 4 711 72
+p P3_take3_0[5]/abar vdd P3_take3_0[5]/a_50_74# 2 8 759 84
+p a2 vdd P3_take3_0[5]/abar 2 7 743 72
+n P3_take3_0[5]/pin gnd P3_take3_0[5]/pinbar 2 3 711 57
+p P3_take3_0[5]/bbar vdd P3_take3_0[5]/a_82_70# 2 8 791 80
+p mout P3_take3_0[5]/a_82_70# c2 2 8 807 80
+p P3_take3_0[5]/minbar c2 P3_take3_0[5]/a_50_74# 2 8 823 80
+p b2 vdd P3_take3_0[5]/bbar 2 7 775 72
+n a2 gnd P3_take3_0[5]/abar 2 5 743 55
+p mout vdd P3_take3_0[5]/minbar 2 4 807 72
+n b2 gnd P3_take3_0[5]/bbar 2 5 775 55
+n P3_take3_0[5]/abar c2 P3_take3_0[5]/a_50_31# 2 4 759 41
+n mout gnd P3_take3_0[5]/minbar 2 3 807 57
+n P3_take3_0[5]/bbar P3_take3_0[5]/a_50_31# gnd 2 4 791 41
+n mout gnd P3_take3_0[5]/a_50_31# 2 4 807 41
+n P3_take3_0[5]/minbar P3_take3_0[5]/a_50_31# c2 2 4 823 41
+n P3_take3_0[5]/pinbar P3_take3_0[4]/pin P3_take3_0[5]/a_2_9# 2 5 727 32
+n a2 P3_take3_0[5]/a_27_23# P3_take3_0[4]/pin 2 5 743 32
+n P3_take3_0[5]/abar P3_take3_0[4]/pin P3_take3_0[5]/a_50_22# 2 5 759 32
+n b2 P3_take3_0[5]/a_50_22# P3_take3_0[5]/a_2_9# 2 5 775 32
+n P3_take3_0[5]/bbar P3_take3_0[5]/a_2_9# P3_take3_0[5]/a_27_23# 2 5 791 32
+n P3_take3_0[5]/pin gnd P3_take3_0[5]/a_2_9# 2 5 711 19
+n a2 P3_take3_0[5]/a_2_9# P3_take3_0[5]/a_34_9# 2 5 743 19
+n P3_take3_0[5]/abar P3_take3_0[5]/a_34_9# gnd 2 5 759 19
+n b2 gnd P3_take3_0[5]/a_34_9# 2 5 775 19
+n P3_take3_0[5]/bbar P3_take3_0[5]/a_34_9# P3_take3_0[5]/a_2_9# 2 5 791 19
+p P3_take3_0[6]/pin P3_take3_0[5]/pin P3_take3_0[6]/a_2_100# 2 9 850 110
+p a1 P3_take3_0[6]/a_27_101# P3_take3_0[6]/a_2_100# 2 9 882 111
+p P3_take3_0[6]/abar P3_take3_0[6]/a_2_100# P3_take3_0[6]/a_50_101# 2 9 898 111
+p b1 P3_take3_0[6]/a_50_101# vdd 2 9 914 111
+p P3_take3_0[6]/bbar vdd P3_take3_0[6]/a_27_101# 2 9 930 111
+p P3_take3_0[6]/pinbar P3_take3_0[5]/pin P3_take3_0[6]/a_18_86# 2 9 866 96
+p a1 P3_take3_0[6]/a_18_86# P3_take3_0[6]/a_34_86# 2 9 882 96
+p P3_take3_0[6]/abar P3_take3_0[6]/a_34_86# vdd 2 9 898 96
+p b1 vdd P3_take3_0[6]/a_34_86# 2 9 914 96
+p P3_take3_0[6]/bbar P3_take3_0[6]/a_34_86# P3_take3_0[6]/a_18_86# 2 9 930 96
+p P3_take3_0[6]/pin vdd P3_take3_0[6]/pinbar 2 4 850 72
+p P3_take3_0[6]/abar vdd P3_take3_0[6]/a_50_74# 2 8 898 84
+p a1 vdd P3_take3_0[6]/abar 2 7 882 72
+n P3_take3_0[6]/pin gnd P3_take3_0[6]/pinbar 2 3 850 57
+p P3_take3_0[6]/bbar vdd P3_take3_0[6]/a_82_70# 2 8 930 80
+p mout P3_take3_0[6]/a_82_70# c1 2 8 946 80
+p P3_take3_0[6]/minbar c1 P3_take3_0[6]/a_50_74# 2 8 962 80
+p b1 vdd P3_take3_0[6]/bbar 2 7 914 72
+n a1 gnd P3_take3_0[6]/abar 2 5 882 55
+p mout vdd P3_take3_0[6]/minbar 2 4 946 72
+n b1 gnd P3_take3_0[6]/bbar 2 5 914 55
+n P3_take3_0[6]/abar c1 P3_take3_0[6]/a_50_31# 2 4 898 41
+n mout gnd P3_take3_0[6]/minbar 2 3 946 57
+n P3_take3_0[6]/bbar P3_take3_0[6]/a_50_31# gnd 2 4 930 41
+n mout gnd P3_take3_0[6]/a_50_31# 2 4 946 41
+n P3_take3_0[6]/minbar P3_take3_0[6]/a_50_31# c1 2 4 962 41
+n P3_take3_0[6]/pinbar P3_take3_0[5]/pin P3_take3_0[6]/a_2_9# 2 5 866 32
+n a1 P3_take3_0[6]/a_27_23# P3_take3_0[5]/pin 2 5 882 32
+n P3_take3_0[6]/abar P3_take3_0[5]/pin P3_take3_0[6]/a_50_22# 2 5 898 32
+n b1 P3_take3_0[6]/a_50_22# P3_take3_0[6]/a_2_9# 2 5 914 32
+n P3_take3_0[6]/bbar P3_take3_0[6]/a_2_9# P3_take3_0[6]/a_27_23# 2 5 930 32
+n P3_take3_0[6]/pin gnd P3_take3_0[6]/a_2_9# 2 5 850 19
+n a1 P3_take3_0[6]/a_2_9# P3_take3_0[6]/a_34_9# 2 5 882 19
+n P3_take3_0[6]/abar P3_take3_0[6]/a_34_9# gnd 2 5 898 19
+n b1 gnd P3_take3_0[6]/a_34_9# 2 5 914 19
+n P3_take3_0[6]/bbar P3_take3_0[6]/a_34_9# P3_take3_0[6]/a_2_9# 2 5 930 19
+p pin P3_take3_0[6]/pin P3_take3_0[7]/a_2_100# 2 9 989 110
+p a0 P3_take3_0[7]/a_27_101# P3_take3_0[7]/a_2_100# 2 9 1021 111
+p P3_take3_0[7]/abar P3_take3_0[7]/a_2_100# P3_take3_0[7]/a_50_101# 2 9 1037 111
+p b0 P3_take3_0[7]/a_50_101# vdd 2 9 1053 111
+p P3_take3_0[7]/bbar vdd P3_take3_0[7]/a_27_101# 2 9 1069 111
+p P3_take3_0[7]/pinbar P3_take3_0[6]/pin P3_take3_0[7]/a_18_86# 2 9 1005 96
+p a0 P3_take3_0[7]/a_18_86# P3_take3_0[7]/a_34_86# 2 9 1021 96
+p P3_take3_0[7]/abar P3_take3_0[7]/a_34_86# vdd 2 9 1037 96
+p b0 vdd P3_take3_0[7]/a_34_86# 2 9 1053 96
+p P3_take3_0[7]/bbar P3_take3_0[7]/a_34_86# P3_take3_0[7]/a_18_86# 2 9 1069 96
+p pin vdd P3_take3_0[7]/pinbar 2 4 989 72
+p P3_take3_0[7]/abar vdd P3_take3_0[7]/a_50_74# 2 8 1037 84
+p a0 vdd P3_take3_0[7]/abar 2 7 1021 72
+n pin gnd P3_take3_0[7]/pinbar 2 3 989 57
+p P3_take3_0[7]/bbar vdd P3_take3_0[7]/a_82_70# 2 8 1069 80
+p mout P3_take3_0[7]/a_82_70# c0 2 8 1085 80
+p P3_take3_0[7]/minbar c0 P3_take3_0[7]/a_50_74# 2 8 1101 80
+p b0 vdd P3_take3_0[7]/bbar 2 7 1053 72
+n a0 gnd P3_take3_0[7]/abar 2 5 1021 55
+p mout vdd P3_take3_0[7]/minbar 2 4 1085 72
+n b0 gnd P3_take3_0[7]/bbar 2 5 1053 55
+n P3_take3_0[7]/abar c0 P3_take3_0[7]/a_50_31# 2 4 1037 41
+n mout gnd P3_take3_0[7]/minbar 2 3 1085 57
+n P3_take3_0[7]/bbar P3_take3_0[7]/a_50_31# gnd 2 4 1069 41
+n mout gnd P3_take3_0[7]/a_50_31# 2 4 1085 41
+n P3_take3_0[7]/minbar P3_take3_0[7]/a_50_31# c0 2 4 1101 41
+n P3_take3_0[7]/pinbar P3_take3_0[6]/pin P3_take3_0[7]/a_2_9# 2 5 1005 32
+n a0 P3_take3_0[7]/a_27_23# P3_take3_0[6]/pin 2 5 1021 32
+n P3_take3_0[7]/abar P3_take3_0[6]/pin P3_take3_0[7]/a_50_22# 2 5 1037 32
+n b0 P3_take3_0[7]/a_50_22# P3_take3_0[7]/a_2_9# 2 5 1053 32
+n P3_take3_0[7]/bbar P3_take3_0[7]/a_2_9# P3_take3_0[7]/a_27_23# 2 5 1069 32
+n pin gnd P3_take3_0[7]/a_2_9# 2 5 989 19
+n a0 P3_take3_0[7]/a_2_9# P3_take3_0[7]/a_34_9# 2 5 1021 19
+n P3_take3_0[7]/abar P3_take3_0[7]/a_34_9# gnd 2 5 1037 19
+n b0 gnd P3_take3_0[7]/a_34_9# 2 5 1053 19
+n P3_take3_0[7]/bbar P3_take3_0[7]/a_34_9# P3_take3_0[7]/a_2_9# 2 5 1069 19
+C P3_take3_0[1]/pin vdd 2.08
+C P3_take3_0[5]/pin vdd 2.08
+C mout gnd 2.02
+C P3_take3_0[6]/pin vdd 2.08
+C P3_take3_0[3]/pin vdd 2.08
+C P3_take3_0[4]/pin vdd 2.08
+C P3_take3_0[0]/pin vdd 2.08
+C P3_take3_0[2]/pin vdd 2.08
+R P3_take3_0[7]/a_34_9# 675
+R P3_take3_0[7]/a_50_22# 230
+R P3_take3_0[7]/a_27_23# 540
+C P3_take3_0[7]/a_2_9# GND 2.50
+R P3_take3_0[7]/a_2_9# 1602
+C P3_take3_0[7]/a_50_31# GND 2.86
+R P3_take3_0[7]/a_50_31# 941
+C c0 GND 6.71
+R c0 679
+R P3_take3_0[7]/a_82_70# 184
+C P3_take3_0[7]/minbar GND 2.13
+R P3_take3_0[7]/minbar 873
+C gnd GND 117.48
+R gnd 23063
+C P3_take3_0[7]/a_50_74# GND 2.16
+R P3_take3_0[7]/a_50_74# 765
+R P3_take3_0[7]/a_34_86# 657
+R P3_take3_0[7]/a_18_86# 670
+C P3_take3_0[7]/pinbar GND 2.47
+R P3_take3_0[7]/pinbar 1138
+C P3_take3_0[7]/bbar GND 2.38
+R P3_take3_0[7]/bbar 1585
+C vdd GND 123.06
+R vdd 26909
+R P3_take3_0[7]/a_50_101# 164
+C P3_take3_0[7]/abar GND 2.38
+R P3_take3_0[7]/abar 1585
+R P3_take3_0[7]/a_27_101# 959
+R P3_take3_0[7]/a_2_100# 734
+C P3_take3_0[6]/pin GND 10.53
+R P3_take3_0[6]/pin 2831
+C pin GND 3.72
+R pin 1301
+C b0 GND 2.03
+R b0 1364
+C a0 GND 2.03
+R a0 1364
+R P3_take3_0[6]/a_34_9# 675
+R P3_take3_0[6]/a_50_22# 230
+R P3_take3_0[6]/a_27_23# 540
+C P3_take3_0[6]/a_2_9# GND 2.50
+R P3_take3_0[6]/a_2_9# 1602
+C P3_take3_0[6]/a_50_31# GND 2.86
+R P3_take3_0[6]/a_50_31# 941
+C c1 GND 6.71
+R c1 679
+R P3_take3_0[6]/a_82_70# 184
+C P3_take3_0[6]/minbar GND 2.13
+R P3_take3_0[6]/minbar 873
+C P3_take3_0[6]/a_50_74# GND 2.16
+R P3_take3_0[6]/a_50_74# 765
+R P3_take3_0[6]/a_34_86# 657
+R P3_take3_0[6]/a_18_86# 670
+C P3_take3_0[6]/pinbar GND 2.47
+R P3_take3_0[6]/pinbar 1138
+C P3_take3_0[6]/bbar GND 2.38
+R P3_take3_0[6]/bbar 1585
+R P3_take3_0[6]/a_50_101# 164
+C P3_take3_0[6]/abar GND 2.38
+R P3_take3_0[6]/abar 1585
+R P3_take3_0[6]/a_27_101# 959
+R P3_take3_0[6]/a_2_100# 734
+C P3_take3_0[5]/pin GND 10.53
+R P3_take3_0[5]/pin 2831
+C b1 GND 2.03
+R b1 1364
+C a1 GND 2.03
+R a1 1364
+R P3_take3_0[5]/a_34_9# 675
+R P3_take3_0[5]/a_50_22# 230
+R P3_take3_0[5]/a_27_23# 540
+C P3_take3_0[5]/a_2_9# GND 2.50
+R P3_take3_0[5]/a_2_9# 1602
+C P3_take3_0[5]/a_50_31# GND 2.86
+R P3_take3_0[5]/a_50_31# 941
+C c2 GND 6.71
+R c2 679
+R P3_take3_0[5]/a_82_70# 184
+C P3_take3_0[5]/minbar GND 2.13
+R P3_take3_0[5]/minbar 873
+C P3_take3_0[5]/a_50_74# GND 2.16
+R P3_take3_0[5]/a_50_74# 765
+R P3_take3_0[5]/a_34_86# 657
+R P3_take3_0[5]/a_18_86# 670
+C P3_take3_0[5]/pinbar GND 2.47
+R P3_take3_0[5]/pinbar 1138
+C P3_take3_0[5]/bbar GND 2.38
+R P3_take3_0[5]/bbar 1585
+R P3_take3_0[5]/a_50_101# 164
+C P3_take3_0[5]/abar GND 2.38
+R P3_take3_0[5]/abar 1585
+R P3_take3_0[5]/a_27_101# 959
+R P3_take3_0[5]/a_2_100# 734
+C P3_take3_0[4]/pin GND 10.53
+R P3_take3_0[4]/pin 2831
+C b2 GND 2.03
+R b2 1364
+C a2 GND 2.03
+R a2 1364
+R P3_take3_0[4]/a_34_9# 675
+R P3_take3_0[4]/a_50_22# 230
+R P3_take3_0[4]/a_27_23# 540
+C P3_take3_0[4]/a_2_9# GND 2.50
+R P3_take3_0[4]/a_2_9# 1602
+C P3_take3_0[4]/a_50_31# GND 2.86
+R P3_take3_0[4]/a_50_31# 941
+C c3 GND 6.71
+R c3 679
+R P3_take3_0[4]/a_82_70# 184
+C P3_take3_0[4]/minbar GND 2.13
+R P3_take3_0[4]/minbar 873
+C P3_take3_0[4]/a_50_74# GND 2.16
+R P3_take3_0[4]/a_50_74# 765
+R P3_take3_0[4]/a_34_86# 657
+R P3_take3_0[4]/a_18_86# 670
+C P3_take3_0[4]/pinbar GND 2.47
+R P3_take3_0[4]/pinbar 1138
+C P3_take3_0[4]/bbar GND 2.38
+R P3_take3_0[4]/bbar 1585
+R P3_take3_0[4]/a_50_101# 164
+C P3_take3_0[4]/abar GND 2.38
+R P3_take3_0[4]/abar 1585
+R P3_take3_0[4]/a_27_101# 959
+R P3_take3_0[4]/a_2_100# 734
+C P3_take3_0[3]/pin GND 10.53
+R P3_take3_0[3]/pin 2831
+C b3 GND 2.03
+R b3 1364
+C a3 GND 2.03
+R a3 1364
+R P3_take3_0[3]/a_34_9# 675
+R P3_take3_0[3]/a_50_22# 230
+R P3_take3_0[3]/a_27_23# 540
+C P3_take3_0[3]/a_2_9# GND 2.50
+R P3_take3_0[3]/a_2_9# 1602
+C P3_take3_0[3]/a_50_31# GND 2.86
+R P3_take3_0[3]/a_50_31# 941
+C c4 GND 6.71
+R c4 679
+R P3_take3_0[3]/a_82_70# 184
+C P3_take3_0[3]/minbar GND 2.13
+R P3_take3_0[3]/minbar 873
+C P3_take3_0[3]/a_50_74# GND 2.16
+R P3_take3_0[3]/a_50_74# 765
+R P3_take3_0[3]/a_34_86# 657
+R P3_take3_0[3]/a_18_86# 670
+C P3_take3_0[3]/pinbar GND 2.47
+R P3_take3_0[3]/pinbar 1138
+C P3_take3_0[3]/bbar GND 2.38
+R P3_take3_0[3]/bbar 1585
+R P3_take3_0[3]/a_50_101# 164
+C P3_take3_0[3]/abar GND 2.38
+R P3_take3_0[3]/abar 1585
+R P3_take3_0[3]/a_27_101# 959
+R P3_take3_0[3]/a_2_100# 734
+C P3_take3_0[2]/pin GND 10.53
+R P3_take3_0[2]/pin 2831
+R b4 1364
+C a4 GND 2.03
+R a4 1364
+R P3_take3_0[2]/a_34_9# 675
+R P3_take3_0[2]/a_50_22# 230
+R P3_take3_0[2]/a_27_23# 540
+C P3_take3_0[2]/a_2_9# GND 2.50
+R P3_take3_0[2]/a_2_9# 1602
+C P3_take3_0[2]/a_50_31# GND 2.86
+R P3_take3_0[2]/a_50_31# 941
+C c5 GND 6.71
+R c5 679
+R P3_take3_0[2]/a_82_70# 184
+C P3_take3_0[2]/minbar GND 2.13
+R P3_take3_0[2]/minbar 873
+C P3_take3_0[2]/a_50_74# GND 2.16
+R P3_take3_0[2]/a_50_74# 765
+R P3_take3_0[2]/a_34_86# 657
+R P3_take3_0[2]/a_18_86# 670
+C P3_take3_0[2]/pinbar GND 2.47
+R P3_take3_0[2]/pinbar 1138
+C P3_take3_0[2]/bbar GND 2.38
+R P3_take3_0[2]/bbar 1585
+R P3_take3_0[2]/a_50_101# 164
+C P3_take3_0[2]/abar GND 2.38
+R P3_take3_0[2]/abar 1585
+R P3_take3_0[2]/a_27_101# 959
+R P3_take3_0[2]/a_2_100# 734
+C P3_take3_0[1]/pin GND 10.53
+R P3_take3_0[1]/pin 2831
+C b5 GND 2.03
+R b5 1364
+C a5 GND 2.03
+R a5 1364
+R P3_take3_0[1]/a_34_9# 675
+R P3_take3_0[1]/a_50_22# 230
+R P3_take3_0[1]/a_27_23# 540
+C P3_take3_0[1]/a_2_9# GND 2.50
+R P3_take3_0[1]/a_2_9# 1602
+C P3_take3_0[1]/a_50_31# GND 2.86
+R P3_take3_0[1]/a_50_31# 941
+C c6 GND 6.71
+R c6 679
+R P3_take3_0[1]/a_82_70# 184
+C P3_take3_0[1]/minbar GND 2.13
+R P3_take3_0[1]/minbar 873
+C P3_take3_0[1]/a_50_74# GND 2.16
+R P3_take3_0[1]/a_50_74# 765
+R P3_take3_0[1]/a_34_86# 657
+R P3_take3_0[1]/a_18_86# 670
+C P3_take3_0[1]/pinbar GND 2.47
+R P3_take3_0[1]/pinbar 1138
+C P3_take3_0[1]/bbar GND 2.38
+R P3_take3_0[1]/bbar 1585
+R P3_take3_0[1]/a_50_101# 164
+C P3_take3_0[1]/abar GND 2.38
+R P3_take3_0[1]/abar 1585
+R P3_take3_0[1]/a_27_101# 959
+R P3_take3_0[1]/a_2_100# 734
+C P3_take3_0[0]/pin GND 10.53
+R P3_take3_0[0]/pin 2831
+C b6 GND 2.03
+R b6 1364
+R a6 1364
+R P3_take3_0[0]/a_34_9# 675
+R P3_take3_0[0]/a_50_22# 230
+R P3_take3_0[0]/a_27_23# 540
+C P3_take3_0[0]/a_2_9# GND 2.50
+R P3_take3_0[0]/a_2_9# 1602
+C P3_take3_0[0]/a_50_31# GND 2.86
+R P3_take3_0[0]/a_50_31# 941
+C c7 GND 6.71
+R c7 679
+R P3_take3_0[0]/a_82_70# 184
+C P3_take3_0[0]/minbar GND 2.13
+R P3_take3_0[0]/minbar 873
+C P3_take3_0[0]/a_50_74# GND 2.16
+R P3_take3_0[0]/a_50_74# 765
+R P3_take3_0[0]/a_34_86# 657
+R P3_take3_0[0]/a_18_86# 670
+C P3_take3_0[0]/pinbar GND 2.47
+R P3_take3_0[0]/pinbar 1138
+C P3_take3_0[0]/bbar GND 2.38
+R P3_take3_0[0]/bbar 1585
+R P3_take3_0[0]/a_50_101# 164
+C P3_take3_0[0]/abar GND 2.38
+R P3_take3_0[0]/abar 1585
+R P3_take3_0[0]/a_27_101# 959
+R P3_take3_0[0]/a_2_100# 734
+C mout GND 77.17
+R mout 9532
+C b7 GND 2.03
+R b7 1364
+C a7 GND 2.03
+R a7 1364

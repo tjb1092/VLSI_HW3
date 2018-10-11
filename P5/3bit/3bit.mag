@@ -1,0 +1,40 @@
+magic
+tech scmos
+timestamp 1539095231
+<< metal1 >>
+rect 45 141 53 148
+rect 77 141 85 148
+rect 184 141 192 148
+rect 216 141 224 148
+rect 323 141 331 148
+rect 355 141 363 148
+rect -7 131 0 134
+rect 417 131 420 134
+rect -7 10 -4 131
+rect 417 124 420 128
+rect 417 13 420 17
+rect -7 7 0 10
+rect 417 7 420 10
+rect 133 -7 141 0
+rect 272 -7 280 0
+rect 411 -7 419 0
+use P3_take3  P3_take3_0
+array 0 2 139 0 0 141
+timestamp 1539028648
+transform 1 0 16 0 1 10
+box -16 -10 123 131
+<< labels >>
+rlabel metal1 417 131 420 134 7 pin
+rlabel metal1 411 -7 419 0 8 c0
+rlabel metal1 272 -7 280 0 1 c1
+rlabel metal1 133 -7 141 0 1 c2
+rlabel metal1 45 141 53 148 5 a2
+rlabel metal1 77 141 85 148 5 b2
+rlabel metal1 184 141 192 148 5 a1
+rlabel metal1 216 141 224 148 5 b1
+rlabel metal1 323 141 331 148 5 a0
+rlabel metal1 355 141 363 148 5 b0
+rlabel metal1 417 124 420 128 7 vdd
+rlabel metal1 417 13 420 17 7 gnd
+rlabel metal1 417 7 420 10 7 mout
+<< end >>
