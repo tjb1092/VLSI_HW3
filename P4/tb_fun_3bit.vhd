@@ -26,22 +26,86 @@ architecture tb_behave of tb_fun_3bit is
 
  test_process : process 
  begin
-
   t_A <= "000";
   t_B <= "000";
-  wait for 5 ns;
+  wait for 10 ns;
+
+  t_A <= "111";
+  t_B <= "000";
+  wait for 10 ns;
+
+  t_A <= "000";
+  t_B <= "111";
+  wait for 10 ns;
+
+  t_A <= "101";
+  t_B <= "000";
+  wait for 10 ns;
+
+  t_A <= "010";
+  t_B <= "000";
+  wait for 10 ns;
+
+  t_A <= "101";
+  t_B <= "111";
+  wait for 10 ns;
+
+  t_A <= "010";
+  t_B <= "111";
+  wait for  10 ns;
+
+  t_A <= "000";
+  t_B <= "101";
+  wait for 10 ns;
+
+  t_A <= "000";
+  t_B <= "010";
+  wait for 10 ns;
+  
+  t_A <= "111";
+  t_B <= "101";
+  wait for 10 ns;
+
+  t_A <= "111";
+  t_B <= "010";
+  wait for 10 ns;
+
+  t_A <= "101";
+  t_B <= "101";
+  wait for 10 ns;
+
+  t_A <= "101";
+  t_B <= "010";
+  wait for 10 ns;
+
+  t_A <= "010";
+  t_B <= "101";
+  wait for 10 ns;
+
+  t_A <= "010";
+  t_B <= "010";
+  wait for 10 ns;
+
+  t_A <= "001";
+  t_B <= "001";
+  wait for 10 ns;
+
+  t_A <= "010";
+  t_B <= "010";
+  wait for 10 ns;
+
+  t_A <= "100";
+  t_B <= "100";
+  wait for 10 ns;
 
   t_A <= "111";
   t_B <= "001";
-  wait for 5 ns;
-
+  wait for 10 ns;
+  
   t_A <= "100";
   t_B <= "011";
-  wait for 5 ns;
+  wait for 10 ns;
 
-  t_A <= "111";
-  t_B <= "101";
-  wait for 5 ns;
   wait;
 
  end process;
